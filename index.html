@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Lexi 💖</title>
+  <style>
+    body {
+      margin: 0;
+      background: #2a1f3d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    img {
+      max-width: 90%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<img id="card" src="Screenshot 2026-01-27 030228.png" alt="Tap to open">
+
+<script>
+  const card = document.getElementById("card");
+  card.addEventListener("click", () => {
+    card.src = "Screenshot 2026-01-27 025300.png";
+  });
+</script>
+
+</body>
+</html>
